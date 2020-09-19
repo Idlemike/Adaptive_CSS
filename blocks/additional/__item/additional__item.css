@@ -1,0 +1,22 @@
+/*Карточка*/
+.additional__item {
+    max-width: 284px;
+    max-height: 330px;
+    margin-right: 16px;
+    text-align: left;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-size: cover;
+    overflow: hidden;
+    color: #FFFFFF;
+    height: 330px;
+    width: 284px;
+}
+.additional__item:last-of-type {
+    margin-right: 0;
+}
+
+

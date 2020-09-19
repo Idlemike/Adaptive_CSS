@@ -1,0 +1,17 @@
+.intro__quote {
+    /* __text */
+    max-width: 42rem;
+    font-size: 1rem;
+    line-height: 1.6875;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 768px) {
+    .intro__quote {
+        max-width: 100%;
+        font-size: .875rem;
+        line-height: 1.7143;
+    }
+}

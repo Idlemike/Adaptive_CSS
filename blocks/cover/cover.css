@@ -1,0 +1,41 @@
+@import url(_indent/cover_indent.css);
+@import url(__back/cover__back.css);
+@import url(__subtitle/cover__subtitle.css);
+@import url(__title/cover__title.css);
+
+
+.cover {
+    width: 100%;
+    position: relative;
+    font-family: Inter, Arial, sans-serif;
+    height: 13.5rem;
+    background-image: url("../../images/Do-baikala-na-sobakah.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 375px) {
+    .cover {
+        height: 17rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cover {
+        height: 31.25rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover {
+        height: 35.125rem;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        width: 74rem;
+        height: 37.125rem;
+    }
+}

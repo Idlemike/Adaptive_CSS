@@ -1,0 +1,23 @@
+.places_indent {
+    margin: 0;
+    padding: 4rem 0 0 0;
+}
+
+@media screen and (min-width: 48rem){
+    .places_indent {
+        padding: 6.575rem 3.125% 0 3.125%;
+    }
+}
+
+@media screen and (min-width: 64rem){
+    .places_indent {
+        padding: 7.1rem 4.6875% 0 4.6875%;
+    }
+}
+
+@media screen and (min-width: 80rem){
+    .places_indent {
+        padding: 6.5rem 0 0 0;
+        margin: 0 auto;
+    }
+}

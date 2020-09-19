@@ -1,0 +1,10 @@
+.comments__img {
+    border-radius: 50%;
+    margin: 0 auto .85rem auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .comments__img {
+        margin: 0 auto 2.5rem 0;
+    }
+}

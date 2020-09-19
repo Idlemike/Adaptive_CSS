@@ -1,0 +1,27 @@
+.header_indent {
+    padding: 1rem 1rem 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header_indent {
+        padding: 1.875rem 1.5rem 0 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header_indent {
+        padding: 1.875rem 3rem 0 3rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header_indent {
+        padding: 1.875rem 3.75% 0 3.75%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header_indent {
+        padding: 1.875rem 8rem 0 8rem;
+    }
+}

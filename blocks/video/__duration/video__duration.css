@@ -1,0 +1,31 @@
+.video__duration {
+    position: relative;
+    font-weight: 500;
+    font-size: .75rem;
+    line-height: 1.083;
+    letter-spacing: 0.3em;
+    max-width: 100%;
+    color: #FFFFFF;
+    list-style: none;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    z-index: 5;
+}
+
+@media screen and (min-width: 375px) {
+    .video__duration {
+        margin-left: 1.5rem;
+        margin-top: 0;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .video__duration {
+        margin-left: 1.875rem;
+        margin-top: 0;
+        margin-bottom: .75rem;
+    }
+}
+

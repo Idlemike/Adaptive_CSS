@@ -1,0 +1,25 @@
+.lead_indent {
+    padding: 3.1rem 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .lead_indent {
+        padding: 3.7rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead_indent {
+        padding: 3.7rem 0 0 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead_indent {
+        padding: 3.7rem 0 0 0;
+        margin: 0 auto;
+    }
+}
+
+

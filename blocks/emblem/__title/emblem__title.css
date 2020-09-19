@@ -1,0 +1,12 @@
+.emblem__title {
+    grid-column: 1 / 6;
+    /* __title */
+    text-align: left;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 430px;
+    color: #FFFFFF;
+    margin: 0;
+}

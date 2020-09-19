@@ -1,0 +1,12 @@
+/*Текст под картой*/
+.barentsburg__text {
+    grid-column: 1 / 2;
+    grid-row: 7 / 10;
+    max-width: 380px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 0;
+}

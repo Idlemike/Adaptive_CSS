@@ -1,0 +1,17 @@
+@import url(_indent/comments_indent.css);
+@import url(../comment/comment.css);
+@import url(__img/comments__img.css);
+@import url(__container/comments__container.css);
+@import url(../content-title/content-title.css);
+@import url(../content-subtitle/content-subtitle.css);
+@import url(__quote/comments__quote.css);
+@import url(__quote-author/comments__quote-author.css);
+
+.comments {
+    max-width: 1184px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter, Arial, sans-serif;
+}

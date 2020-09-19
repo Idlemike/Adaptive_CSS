@@ -1,0 +1,52 @@
+.content-title {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.094;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    opacity: 1;
+    transition: opacity 200ms linear;
+}
+
+.content-title:hover {
+    opacity: .8;
+}
+
+@media screen  and (min-width: 768px) {
+    .content-title {
+        font-size: 2.625rem;
+        line-height: 1.095;
+    }
+    .video .content-title {
+        max-width: 60%;
+    }
+    .comments .content-title {
+        max-width: 90%;
+    }
+}
+
+@media screen  and (min-width: 1024px) {
+    .video .content-title {
+        font-size: 4.5rem;
+        max-width: 80%;
+        line-height: 1.083;
+    }
+    .comments .content-title {
+        font-size: 4.5rem;
+        line-height: .93;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .video .content-title {
+        max-width: 60%;
+        font-size: 4.5rem;
+        line-height: 1.083;
+    }
+    .comments .content-title {
+        max-width: 70%;
+        font-size: 4.5rem;
+        line-height: 1.083;
+    }
+}

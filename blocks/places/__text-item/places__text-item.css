@@ -1,0 +1,27 @@
+.places__text-item {
+    list-style: none;
+    font-size: 1rem;
+    line-height: 1.6875;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.places__text-item:nth-child(2n) {
+    padding: 1.5rem 0 0 0;
+}
+
+@media screen and (min-width: 375px) {
+    .places__place:nth-child(2) .places__text-item:nth-child(2n) {
+        padding: 2rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .places__text-item {
+        font-size: 1.125rem;
+        line-height: 1.66;
+    }
+}
+

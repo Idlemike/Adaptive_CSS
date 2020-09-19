@@ -1,0 +1,30 @@
+@import url(_indent/photo-grid_indent.css);
+@import url(__img/photo-grid__img.css);
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17.75rem, 1fr));
+    max-width: 90rem;
+    width: 100%;
+    grid-gap: .5rem;
+    font-family: Inter, Arial, sans-serif;
+}
+
+@media screen and (min-width: 375px){
+    .photo-grid {
+        grid-gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .photo-grid {
+        grid-gap: .875rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .photo-grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1184px;
+    }
+}

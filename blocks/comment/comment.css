@@ -1,0 +1,21 @@
+.comment {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    align-content: center;
+}
+
+.comment:last-of-type {
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .comment {
+        width: calc((100% - 36px)/3);
+        padding: 0;
+    }
+}

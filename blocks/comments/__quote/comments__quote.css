@@ -1,0 +1,25 @@
+.comments__quote {
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.4375;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .comments__quote {
+        margin: 0 auto;
+        max-width: 57%;
+    }
+    .comments__quote-author {
+        padding-bottom: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+     .comment .comments__quote {
+        max-width: 100%;
+        font-size: .87rem;
+        line-height: 1.72;
+    }
+}

@@ -1,0 +1,10 @@
+/*Заголовок карточек*/
+.additional__card-item-heading{
+    position: relative;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 29px;
+    color: #FFFFFF;
+    max-width: 248px;
+    margin: 30px auto auto 18px;
+}

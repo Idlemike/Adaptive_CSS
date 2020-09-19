@@ -1,0 +1,9 @@
+/*Картинка карточки*/
+.additional__item_shihan {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url('../../../../images/shihan.jpg');
+    background-size: cover;
+    opacity: 1;
+    z-index: 4;
+}

@@ -1,0 +1,35 @@
+@import url(../__quote/intro__quote.css);
+@import url(../__quote-data/intro__quote-data.css);
+
+.intro__content-row {
+    /* __content-row */
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 2.3rem 0 0 0;
+}
+
+@media screen and (min-width: 375px) {
+    .intro__content-row {
+        padding: 1.8rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro__content-row {
+        padding: 2.1rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__content-row {
+        max-width: 710px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro__content-row {
+        max-width: 730px;
+    }
+}

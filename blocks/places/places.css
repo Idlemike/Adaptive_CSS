@@ -1,0 +1,15 @@
+@import url(_indent/places_indent.css);
+@import url(__place/places__place.css);
+@import url(__text-item/places__text-item.css);
+@import url(__text-wrap/places__text-wrap.css);
+
+.places {
+    /* places */
+    width: 100%;
+    font-family: Inter, Arial, sans-serif;
+}
+@media screen and (min-width: 1280px) {
+    .places {
+        width: 984px;
+    }
+}

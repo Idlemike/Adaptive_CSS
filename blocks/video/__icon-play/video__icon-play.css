@@ -1,0 +1,21 @@
+.video__icon-play {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 2.5625rem;
+    z-index: 5;
+}
+
+@media screen and (min-width: 375px) {
+    .video__icon-play {
+            margin-top: 1.5rem;
+            margin-left: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .video__icon-play {
+        margin-left: 1.875rem;
+        margin-top: 1.875rem;
+    }
+}

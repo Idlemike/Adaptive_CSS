@@ -1,0 +1,14 @@
+.intro__schedule-item-text {
+    font-size: .75rem;
+    line-height: 1.583;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px){
+    .intro__schedule-item-text {
+        font-size: .8125rem;
+        line-height: 1.5384;
+    }
+}

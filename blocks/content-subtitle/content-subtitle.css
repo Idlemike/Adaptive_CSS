@@ -1,0 +1,52 @@
+.content-subtitle {
+    /* subtitle */
+    font-size: 1rem;
+    line-height: 1.4375;
+    font-weight: 400;
+    max-width: 100%;
+    margin: 0;
+    padding: 1.4rem 0 0 0;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: opacity 200ms linear;
+}
+
+.content-subtitle:hover {
+    opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+    .content-subtitle {
+        font-size: 1.5rem;
+        line-height: 1.4583;
+        font-weight: 400;
+        padding: 1.8rem 0 0 0;
+    }
+    .video .content-subtitle {
+        max-width: 87%;
+    }
+    .comments .content-subtitle {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .video .content-subtitle {
+        max-width: 70%;
+    }
+    .comments .content-subtitle {
+        max-width: 70%;
+        padding: 2.2rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .video .content-subtitle {
+        max-width: 60%;
+    }
+    .comments .content-subtitle {
+        max-width: 60%;
+        padding: 2.5rem 0 0 0;
+    }
+}

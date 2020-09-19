@@ -1,0 +1,19 @@
+.barentsburg__link {
+    /* Умереть или родиться здесь практически невозможно */
+    max-width: 282px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: opacity .5s linear;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.barentsburg__link:hover {
+    opacity: .5;
+}

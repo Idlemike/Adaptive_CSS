@@ -1,0 +1,28 @@
+@import url(../__schedule-item/intro__schedule-item.css);
+@import url(../__schedule-item-text/intro__schedule-item-text.css);
+
+.intro__schedule {
+    /* __text */
+    max-width: 383px;
+    color: #FFFFFF;
+    padding: 2.2rem 0 0 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px){
+    .intro__schedule {
+        padding: 1.6rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .intro__schedule {
+        padding: 1.2rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .intro__schedule {
+        padding: .8rem 0 0 0;
+    }
+}

@@ -1,0 +1,12 @@
+/*Текст координат*/
+.barentsburg__coord {
+    margin: 0 auto 0 0;
+    font-style: normal;
+    padding: 0;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 61px;
+    color: #FFFFFF;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}

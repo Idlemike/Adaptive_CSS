@@ -1,0 +1,23 @@
+.comments_indent {
+    padding: 4.1rem .95rem 0 1rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .comments_indent {
+        padding: 6.5rem 3.375rem 0 3.375rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .comments_indent {
+        padding: 7.2rem 3rem 0 3rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .comments_indent {
+        padding: 6.6rem 0 0 0;
+        margin: 0 auto;
+    }
+}

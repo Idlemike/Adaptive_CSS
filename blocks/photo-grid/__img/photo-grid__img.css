@@ -1,0 +1,30 @@
+.photo-grid__img {
+    width: 100%;
+    height: auto;
+    min-height: 12rem;
+}
+
+@media screen and (min-width: 375px){
+    .photo-grid__img {
+        min-height: 14.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .photo-grid__img {
+        min-height: 14.625rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .photo-grid__img {
+        min-height: 12.5rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .photo-grid__img {
+        min-height: 11.75rem;
+
+    }
+}

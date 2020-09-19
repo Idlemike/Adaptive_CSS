@@ -1,0 +1,28 @@
+.cover_indent {
+    margin: 4rem 0 0 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 375px) {
+    .cover_indent {
+        margin: 3rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cover_indent {
+        margin: 6.375rem 0 0 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover_indent {
+        margin: 5.775rem auto 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cover_indent {
+        margin: 5.775rem auto 0 auto;
+    }
+}

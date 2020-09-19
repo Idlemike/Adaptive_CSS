@@ -1,0 +1,10 @@
+/*Текст карточек*/
+.additional__card-item-text {
+    position: relative;
+    max-width: 248px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 auto 30px auto;
+}

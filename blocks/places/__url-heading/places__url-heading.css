@@ -1,0 +1,19 @@
+.places__url-heading { /* __url-heading */
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: 1.66;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin: auto auto 0 0;
+    text-transform: uppercase;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .places__url-heading {
+        display: grid;
+        grid-row: 1 / 2;
+        padding: 0;
+        margin: auto auto 5px 0;
+    }
+}
